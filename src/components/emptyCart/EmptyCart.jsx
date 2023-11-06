@@ -13,7 +13,7 @@ const EmptyCart = () => {
         className="flex items-center font-extrabold text-xl w-max m-auto"
         to={`/allProducts/`}
       >
-        <FaAngleLeft className="" />
+        <FaAngleLeft />
         <p className="border-b-2 py-1 transition-all duration-300 hover:border-b-blue-500">
           Back to shopping
         </p>

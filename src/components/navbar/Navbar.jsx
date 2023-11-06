@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav className="border-b border-gray-400 bg-white sticky top-0 z-20">
         <section className="flex items-center justify-between p-4 max-[395px]:px-2">
           <Link
-            to={`/`}
+            to={`/shopping-react/`}
             className="uppercase text-3xl text-red-600 font-bold transition-all duration-300 max-[389px]:text-[20p] "
           >
             brand

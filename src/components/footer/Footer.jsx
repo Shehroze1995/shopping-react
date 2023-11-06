@@ -66,7 +66,7 @@ const Footer = () => {
       <div className="bg-[#222222] text-white flex flex-col items-center justify-center text-sm pb-8">
         <p>Copyright &copy; 2023 All rights reserved</p>
         <p className="flex items-center gap-1">
-          Made with <AiOutlineHeart /> by <a href="">Shehroze</a>
+          Made with <AiOutlineHeart /> by <a target="_blank" href="https://github.com/Shehroze1995" rel="noreferrer">Shehroze</a>
         </p>
       </div>
     </footer>

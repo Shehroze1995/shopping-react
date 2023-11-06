@@ -98,7 +98,7 @@ const Details = () => {
           </button>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 };

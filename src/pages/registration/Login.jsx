@@ -21,7 +21,7 @@ const Login = () => {
       return toast.error("Password should be at least 6 characters long !");
     }
     setName(""), setEmail(""), setPassword("");
-    navigate('/')
+    navigate('/shopping-react/')
     return toast.success("Logged in successfully. You can shop now");
   };
 

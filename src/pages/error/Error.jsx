@@ -10,7 +10,7 @@ const Error = () => {
           <p>you were looking for.</p>
         </article>
         <p>Please return to our home page to continue browsing our site.</p>
-        <Link to={`/`} className="text-blue-500">
+        <Link to={`/shopping-react/`} className="text-blue-500">
           <u>Back to Home</u>
         </Link>
       </section>

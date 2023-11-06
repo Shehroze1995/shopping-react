@@ -20,10 +20,10 @@ const Cart = () => {
       ) : (
         <>
           <p className="mb-8 px-4 text-xl">
-            YOU HAVE{" "}
+            YOU HAVE
             <span className="text-blue-800">
               {amount} {amount == 1 ? "ITEM" : "ITEMS"}
-            </span>{" "}
+            </span>
             IN YOUR SHOPPING BAG
           </p>
           <div className="flex mb-32 max-[800px]:items-center max-[800px]:flex-col">
@@ -69,7 +69,7 @@ const Cart = () => {
           </div>
         </>
       )}
-      <Footer/>
+      <Footer />
     </main>
   );
 };
