@@ -22,7 +22,8 @@ const Cart = () => {
           <p className="mb-8 px-4 text-xl">
             YOU HAVE
             <span className="text-blue-800">
-              {amount} {amount == 1 ? "ITEM" : "ITEMS"}
+              {" "}
+              {amount} {amount == 1 ? " ITEM " : " ITEMS "}
             </span>
             IN YOUR SHOPPING BAG
           </p>
