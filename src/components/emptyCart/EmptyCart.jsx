@@ -11,7 +11,7 @@ const EmptyCart = () => {
       </div>
       <Link
         className="flex items-center font-extrabold text-xl w-max m-auto"
-        to={`/allProducts/`}
+        to={`/shopping-react/allProducts/`}
       >
         <FaAngleLeft />
         <p className="border-b-2 py-1 transition-all duration-300 hover:border-b-blue-500">

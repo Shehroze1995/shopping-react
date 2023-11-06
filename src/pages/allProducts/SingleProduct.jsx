@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+// eslint-disable-next-line react/prop-types
 const SingleProduct = ({ id, name, img, price }) => {
   const [isDetailsVisible, setIsDetailsVisible] = useState(false);
 
@@ -24,7 +25,7 @@ const SingleProduct = ({ id, name, img, price }) => {
           alt={name}
         />
         <Link
-          to={`/allProducts/${id}`}
+          to={`/shopping-react/allProducts/${id}`}
           className={`bg-blue-500 text-white py-2 px-8 rounded-2xl text-xl absolute bottom-3 left-[50%] translate-x-[-50%] transition-all duration-300 ${
             isDetailsVisible ? "translate-y-0" : "translate-y-[150%] invisible"
           } max-[800px]:hidden`}
@@ -37,7 +38,7 @@ const SingleProduct = ({ id, name, img, price }) => {
         <p className="text-gray-600">${price}</p>
       </div>
       <Link
-        to={`/allProducts/${id}`}
+        to={`/shopping-react/allProducts/${id}`}
         className="bg-blue-500 w-11/12 py-2 text-white text-center absolute bottom-0 left-[50%] translate-x-[-50%] min-[800px]:hidden"
       >
         Details

@@ -75,7 +75,7 @@ const Details = () => {
           ) : null}
           {itemAdded ? (
             <Link
-              to={`/cart`}
+              to={`/shopping-react/cart`}
               className="bg-[#444444] text-white text-center text-xl py-2 w-11/12 max-w-sm m-auto rounded onRenderAnimate"
             >
               See your Shopping Bag
