@@ -13,7 +13,7 @@ import Details from "./pages/details/Details";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shopping-react/">
       <Routes>
         <Route path="/shopping-react/" element={<Layout />}>
           <Route index element={<Home />} />
